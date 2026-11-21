@@ -422,7 +422,7 @@ footer a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px;}
       <div>
         <h2>¿Todavía no sabes qué regalar?</h2>
         <p>Cuéntanos para quién es y cuánto quieres gastar, y te recomendamos una opción. Pide a tiempo para que llegue antes del 24 de diciembre.</p>
-        <a class="btn-pill btn-red" href="https://digitalmtx.com/contacto/">Hablar con un asesor <i class="ph ph-arrow-right"></i></a>
+        <a class="btn-pill btn-red" href="https://digitalmtx.com/contactanos-pqrs/">Hablar con un asesor <i class="ph ph-arrow-right"></i></a>
       </div>
     </div>
   </section>
@@ -465,7 +465,7 @@ footer a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px;}
       <div>
         <h3>Ayuda</h3>
         <ul>
-          <li><a href="https://digitalmtx.com/contacto/">Contacto</a></li>
+          <li><a href="https://digitalmtx.com/contactanos-pqrs/">Contacto</a></li>
           <li><a href="https://digitalmtx.com/mi-cuenta/">Mi cuenta</a></li>
         </ul>
       </div>
@@ -485,23 +485,23 @@ footer a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px;}
     {id:'gamer', c:'#6d28d9', tag:'Para el gamer',
      text:'Mouse inalámbricos y periféricos de precisión para quien juega en serio.',
      tip:'Un mouse inalámbrico liviano es el regalo gamer que más se usa y casi nunca se repite.',
-     cats:[268,253], exclude:/essential|professional|m196|mobi|shifter|g560|k400|trackpad|magic|m\d{3}\b/i, more:'/categoria-producto/gaming/'},
+     cats:[268,253], exclude:/essential|professional|m196|mobi|shifter|g560|k400|trackpad|magic|m\d{3}\b/i, more:'/categoria/gaming/'},
     {id:'home-office', c:'#1d5fd1', tag:'Para quien trabaja en casa',
      text:'Mouse, teclados y soportes para jornadas largas frente al computador.',
      tip:'Un combo de teclado y mouse inalámbrico es un acierto seguro para cualquier presupuesto.',
-     cats:[197,127,121], more:'/categoria-producto/accesorios-y-perifericos/'},
+     cats:[197,127,121], more:'/categoria/accesorios-y-perifericos/'},
     {id:'creador', c:'#c4156a', tag:'Para creadores y streamers',
      text:'Cámaras web y micrófonos para videollamadas, clases y contenido.',
      tip:'Si ya tiene cámara, regala un micrófono: el audio es lo que más mejora el resultado.',
-     cats:[123,266], exclude:/rally|group|meetup|brio 4k pro|conferenc|poly|jabra|business/i, more:'/categoria-producto/accesorios-y-perifericos/camaras-web/'},
+     cats:[123,266], exclude:/rally|group|meetup|brio 4k pro|conferenc|poly|jabra|business/i, more:'/categoria/accesorios-y-perifericos/camaras-web/'},
     {id:'audio', c:'#c2570c', tag:'Para quien vive con música',
      text:'Audífonos y parlantes para escuchar mejor en casa, en la calle o en la oficina.',
      tip:'Un parlante Bluetooth portátil le sirve a casi todos. Pregunta si lo usaría más en casa o de viaje.',
-     cats:[263,128], exclude:/rally|evolve|group|poly|conferencia|videoconferencia|mic pod/i, more:'/categoria-producto/audio-y-video/'},
+     cats:[263,128], exclude:/rally|evolve|group|poly|conferencia|videoconferencia|mic pod/i, more:'/categoria/audio-y-video/'},
     {id:'viajero', c:'#0b7a43', tag:'Para viajeros y estudiantes',
      text:'Mochilas, cargadores y baterías portátiles para el día a día.',
      tip:'Un power bank o un cargador rápido es el regalo útil que todos terminan usando a diario.',
-     cats:[196,124], exclude:/cable de seguridad|defcon/i, more:'/categoria-producto/accesorios-y-perifericos/'},
+     cats:[196,124], exclude:/cable de seguridad|defcon/i, more:'/categoria/accesorios-y-perifericos/'},
     {id:'apple', c:'#4b5563', tag:'Para quien usa Apple',
      text:'Accesorios, AirPods, iPad y iPhone de la tienda oficial.',
      tip:'Si no conoces su modelo, los accesorios y los AirPods funcionan con casi todo el ecosistema.',
@@ -509,20 +509,20 @@ footer a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px;}
     {id:'detalle', c:'#946c00', tag:'Detalles y amigo secreto',
      text:'Opciones de hasta $60.000 para intercambios y regalos de última hora.',
      tip:'Para un amigo secreto, un accesorio útil por menos de $60.000 siempre supera a un regalo genérico.',
-     cats:[126,124,197,196], maxPrice:60000, more:'/categoria-producto/accesorios-y-perifericos/'},
+     cats:[126,124,197,196], maxPrice:60000, more:'/categoria/accesorios-y-perifericos/'},
     // Guías sin presupuesto: por ahora muestran imágenes de relleno hasta definir los productos
-    {id:'increible', c:'#0e7490', placeholder:true, tag:'Un regalo increíble',
+    {id:'increible', c:'#0e7490', tag:'Un regalo increíble',
      text:'Para quien se lo merece todo: equipos de primera, de esos regalos que se recuerdan por años.',
      tip:'Si quieres dejar huella, elige el equipo que la persona usa a diario y llévalo al siguiente nivel.',
-     cats:[], more:'/tienda/'},
-    {id:'ultimo', c:'#4d7c0f', placeholder:true, tag:'Para sorprender con lo último',
+     cats:[146], pages:2, minPrice:300000, exclude:/meetup|display hub|mic hub|mounting|\buc\b|teams|c925e|pedals|shifter|silla|sim racing/i, more:'/logitech-tienda-oficial/'},
+    {id:'ultimo', c:'#4d7c0f', tag:'Para sorprender con lo último',
      text:'Tecnología nueva, práctica y fácil de usar para quien disfruta estrenar.',
      tip:'Un gadget que no sabía que necesitaba suele ser el regalo que más se recuerda.',
-     cats:[], more:'/tienda/'},
-    {id:'familia', c:'#1e3a8a', placeholder:true, tag:'Para toda la familia',
+     cats:[], brands:[182], more:'/?s=xiaomi&post_type=product'},
+    {id:'familia', c:'#1e3a8a', tag:'Para toda la familia',
      text:'El regalo grande de la casa: algo que todos van a disfrutar juntos.',
      tip:'Si el regalo es para el hogar, piensa en lo que se comparte: sala, cine y juegos en familia.',
-     cats:[], more:'/tienda/'}
+     cats:[207], exclude:/business/i, more:'/categoria/electrodomesticos/televisores/'}
   ];
   // Productos que no funcionan como regalo (repuestos, cableado, uso vehicular o empresarial)
   var NOT_GIFT = /conector|rj45|hdmi|vga|displayport|\bcable\b|adaptador|carro|road cam|infantil|bluethooth|repuesto|bater[ií]a|cinta|pila|soporte para pared|rally|videoconferencia|\btap\b|swytch|mount|riser|scheduler|for business|funda|maxcases|zone wired|sync |roommate|scribe/i;
@@ -741,10 +741,17 @@ footer a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px;}
 
   /*DATA-START*/
   var API = '/wp-json/wc/store/v1/products';
-  function fetchCat(id){
-    return fetch(API+'?category='+id+'&per_page=100&stock_status=instock').then(function(r){
+  function fetchSrc(q,page){
+    return fetch(API+'?'+q+'&per_page=100&stock_status=instock'+(page>1?'&page='+page:'')).then(function(r){
       if(!r.ok) throw new Error(r.status); return r.json();
     });
+  }
+  // Fuentes de una guía: categorías (con las páginas que pida) y marcas
+  function sources(g){
+    var out = [], pages = g.pages || 1;
+    (g.cats||[]).forEach(function(c){ for(var i=1;i<=pages;i++) out.push(['category='+c,i]); });
+    (g.brands||[]).forEach(function(b){ out.push(['brand='+b,1]); });
+    return out;
   }
   function norm(p){
     var minor = p.prices && p.prices.currency_minor_unit || 0;
@@ -767,12 +774,13 @@ footer a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px;}
   }
   GUIDES.forEach(function(g){
     if(g.placeholder){ initPlaceholder(g); return; }
-    Promise.all(g.cats.map(fetchCat)).then(function(res){
+    Promise.all(sources(g).map(function(x){return fetchSrc(x[0],x[1]);})).then(function(res){
       var seen = {}, names = {}, out = [];
       res.forEach(function(arr){arr.forEach(function(raw){
         if(seen[raw.id] || !raw.is_in_stock || !raw.images || !raw.images.length) return;
         var p = norm(raw);
         if(!p.price || !p.img) return;
+        if(g.minPrice && p.price < g.minPrice) return;
         if(NOT_GIFT.test(p.name) && !(g.allow && g.allow.test(p.name))) return;
         if(g.exclude && g.exclude.test(p.name)) return;
         // Variantes de color/referencia del mismo producto: dejar solo una
